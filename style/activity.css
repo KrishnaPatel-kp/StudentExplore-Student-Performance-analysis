@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+}
+
+main {
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infopanel {
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.infopanel p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.table-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table-details td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.box-forms {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box-forms a {
+    text-decoration: none;
+}
+
+.box-forms button {
+    padding: 10px 20px;
+    background-color: #4a5568;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-forms button:hover {
+    background-color: #2d3748;
+}
+
+#div-header {
+    height: 100px;
+    background-color: #e2e2e4;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.border-text {
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    /* Add a text shadow for highlight effect */
+
+}
+.container-main{
+    display: flex;
+    flex-direction: row;
+    background-color: #4a5568;
+    justify-content: space-evenly;
+    padding:50px 50px;
+    height: 550px;
+}
+.container-outer{
+    background-color: #ddd;
+    width: 400px;
+    height: 450px !important;
+    border-radius: 40px;
+}
